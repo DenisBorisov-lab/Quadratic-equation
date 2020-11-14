@@ -52,7 +52,7 @@ public class Main {
                 x = (-b - Math.sqrt(discriminant)) / (2 * a);
                 answers.add(x);
             }else{
-
+                x = (-b) / 2 * a;
             }
         }
         return answers;
